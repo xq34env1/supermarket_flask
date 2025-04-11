@@ -1,18 +1,29 @@
-form.form-username
+body
 {
-	display: table;
-}
-div.form-username
-{
-	display: table-row;
-}
-label, input
-{
-	display: table-cell;
-	margin-bottom: 10px;
+	background-color: #d5dfed;
+	font-size: 100px;
 }
 
-label
+td
 {
-  padding-right: 10px;
+	text-align: center;
+	font-size: 30px;
+}
+
+h2
+{
+	text-align: center;
+	font-size: 30px;
+}
+
+table
+{
+	margin-left: auto;
+	margin-right: auto;
+	font-size: 30px;
+}
+
+input
+{
+	width: 100%;
 }

@@ -5,18 +5,34 @@
 	</head>
 	<body>
 		<h2>Metro Cash & Carry</h2>
+		<hr>
 		<form action="/login" method="GET" class="form-username">
-			<div class="form-username">
-				<b><label>Enter Your Username</label></b>
-				<input name = "username-user"></input>
-				<br>
-			</div>
-			<div class="form-username">
-				<b><label>Enter Your Password</label></b>
-				<input name = "password-user"></input>
-				<br>
-				<button type="submit">SUBMIT</button>
-			</div>
+			<table>
+				<tr>
+					<td>
+						<b><label>Username</label></b>
+					</td>
+					<td>
+						<input name = "username-user"></input>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<b><label>Password</label></b>
+					</td>
+					<td>
+						<input name = "password-user"></input>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<p></p>
+					</td>
+					<td>
+						<button type="submit" id="button_submit">SUBMIT</button>
+					</td>
+				</tr>
+			</table>
 		</form>
 	</body>
 </html>
